@@ -1,0 +1,21 @@
+{
+  "name": "staspiv/search-char",
+  "description": "This bundle is for searching word by char",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stas Pivovartsev",
+      "email": "staspivovartsev@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "StasPiv\\SearchChar\\": "src",
+      "StasPiv\\SearchChar\\Tests": "Tests"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "5.5.0"
+  }
+}
